@@ -1,8 +1,7 @@
 #AFLFast
-<a href="https://comp.nus.edu.sg/~mboehme/paper/CCS16.pdf"><img src="https://comp.nus.edu.sg/~mboehme/paper/CCS16.png" align="right" width="250"></a>
+
 Power schedules implemented by Marcel Böhme \<marcel.boehme@acm.org\> and further optimized by John Menerick \<john@syn.agency\>. 
-AFLFast is an extension of AFL which is written and maintained by 
-Michal Zalewski \<lcamtuf@google.com\>.
+AFLFast is an extension of AFL which is written and maintained by Michal Zalewski \<lcamtuf@google.com\>.
 
 AFLFast is a fork of AFL that has been shown to outperform AFL 1.96b by an **order of magnitude**! It helped in the success of Team Codejitsu at the finals of the DARPA Cyber Grand Challenge where their bot Galactica took **2nd place** in terms of #POVs proven (see red bar at https://www.cybergrandchallenge.com/event#results). AFLFast exposed several previously unreported CVEs that could not be exposed by AFL in 24 hours and otherwise exposed vulnerabilities significantly faster than AFL while generating orders of magnitude more unique crashes. 
 
